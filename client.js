@@ -13,6 +13,24 @@ const connect = function() {
   conn.on("connect", () => {
     console.log("Successfully connected to game server");
     conn.write("Name: DLM");
+    // conn.write("Move: up");
+    // setTimeout(() => {
+    //   conn.write("Move: up");
+    // },300);
+    // setTimeout(() => {
+    //   conn.write("Move: up");
+    // },600);
+    // setTimeout(() => {
+    //   conn.write("Move: up");
+    // },900);
+    // setTimeout(() => {
+    //   conn.write("Move: up");
+    // },1200);
+    // setTimeout(() => {
+    //   conn.write("Move: up");
+    // },1500);
+
+    
   });
 
 
